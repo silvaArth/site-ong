@@ -1,0 +1,317 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: #561C24;
+    font-family: "Poppins", sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    padding: 28px 3%;
+    padding-bottom: 100px;
+}
+
+#nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 237px;
+    height: 42px;
+}
+
+#menu li{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+
+#menu a{
+    color: #F5EADA;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#redes{
+    display: flex;
+    gap: 60px;
+}
+
+#donate{
+    background-color: #561C24;
+    color: #F5EADA;
+    font-size: 20px;
+    border: 1px solid #F5EADA;
+    border-radius: 8px;
+    padding: 5px 11px;
+}
+
+#redes_icon{
+    display: flex;
+    gap: 26px;
+}
+
+#redes_icon a{
+    width: 44px;
+    height: 44px;
+}
+
+.hov{
+    transition: 0.3s ease-in-out;
+}
+
+.hov:hover{
+    transform: scale(1.1);
+}
+
+#menu a:hover{
+    color: #fff;
+}
+
+#inicio{
+    padding: 0px 3%;
+    display: flex;
+    gap: 151px;
+    min-height: calc(100vh - 100px);
+}
+
+#image{
+    width: 742px;
+    height: 739px;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    color: #F5EADA;
+}
+
+#content h1{
+    font-size: 96px;
+    line-height: 150%;
+    font-weight: 700;
+}
+
+#content p{
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 43px;
+}
+
+.voluntario{
+    color: #F5EADA;
+    border: 1px solid #F5EADA;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 182px;
+    padding: 9px 13px;
+}
+
+#projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
+    padding: 28px 3%;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F5EADA;
+    gap: 10px;
+}
+
+#text h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#text p{
+    width: 478px;
+    height: 83px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#grade{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.card{
+    width: 100%;
+    position: relative;
+}
+
+.card .card-content{
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 486px;
+    height: 292px;
+    padding: 20px;
+    color: #F5EADA;
+    border-radius: 8px;
+    transition: ease-in-out 0.3s;
+}
+
+.card .card-content:hover{
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+#sobre{
+    margin-top: 100px;
+    padding: 0px 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 100px;
+}
+
+.logo-sobre{
+    width: 516px;
+    height: 92px;
+}
+
+#texto-sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #F5EADA;
+    gap: 20px;
+}
+
+#texto-sobre h1{
+    line-height: 150%;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#texto-sobre p{
+    width: 1250px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 180%;
+}
+
+footer{
+    font-family: "Inter", sans-serif;
+    background: #3D141A;
+    padding: 0px 3%;
+}
+
+#footer_content{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    gap: 300px;
+}
+
+#footer_logo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 50px;
+}
+
+#footer_logo img{
+    width: 206px;
+    height: 143px;
+}
+
+#footer_logo p{
+    width: 535px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.tel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 720px;
+    border-bottom: 2px solid #F5EADA;
+    padding-bottom: 10px;
+}
+
+.tel .tel-num{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tel img{
+    width: 39.378px;
+    height: 39.378px;
+}
+
+.tel p{
+    font-size: 21px;
+    color: #F5EADA;
+}
+
+.tel a{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    background-color: #F5EADA;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.tel a img{
+    width: 30px;
+    height: 30px;
+}
+
+.redes{
+    padding-top: 10px;
+    display: flex;
+    gap: 26px;
+    width: 38px;
+    height: 38px;
+}
+
+.copyright{
+    color: #F5EADA;
+    padding: 50px 0;
+    font-size: 20px;
+}
+
+#footer_links{
+    display: flex;
+    gap: 70px;
+    color: #F5EADA;
+}
+
+#footer_links a{
+    color: #F5EADA;
+    font-size: 20px;
+    
+}
+
+.lista-links{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-top: 7px;
+}
