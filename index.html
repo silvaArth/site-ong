@@ -11,25 +11,40 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/menu.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
     <title>Instiruto Adotar</title>
 </head>
 <body>
     <header>
         <nav id="nav_bar">
+            <button id="mobile_btn">
+                <img src="src/img/icons/menu.svg" alt="Barrinhas menu">
+            </button>
+
             <img src="src/img/InstitutoAdotar-Logo-Horizontal-Negativa.png" alt="Logo Instituto Adotar" class="logo">
+
+            <a href="doacao.html" id="mobile_donate">
+                    DOAÇÕES
+            </a>
 
             <ul id="menu">
                 <li>
                     <a href="#incio" class="hov">
                         Início
                     </a>
+                </li>
 
+                <li>
                     <a href="#projetos" class="hov">
                         Projetos
                     </a>
+                </li>
 
+                <li>
                     <a href="#sobre" class="hov">
                         Sobre Nós
                     </a>
@@ -56,6 +71,28 @@
                 </ul>
             </div>
         </nav>
+
+        <div id="mobile_nav_bar">
+            <ul id="mobile_menu">
+                <li>
+                    <a href="index.html#inicio" class="hov">
+                        Início
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="index.html#projetos" class="hov">
+                        Projetos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#sobre" class="hov">
+                        Sobre Nós
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <main>
@@ -165,6 +202,80 @@
                         O Instituto Adotar é um projeto de uma ONG que ajuda familias carentes.
                     </p>
                 </div>
+
+                <div id="mobile_footer_links">
+                <div class="links-redes">
+                    <h1>
+                        LINKS
+                    </h1>
+
+                    <ul class="lista-links">
+                        <li>
+                            <a href="#">
+                                Iníco
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                Projetos
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Sobre nós
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="links-contatos">
+                    <h1>
+                        CONTATOS
+                    </h1>
+
+                    <ul class="lista-links">
+                        <li>
+                            <a href="#">
+                                Whatsapp
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">
+                                Instagram
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Facebook
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="links-devs">
+                    <h1>
+                        DESENVOLVEDORES
+                    </h1>
+
+                    <ul class="lista-links">
+                        <li>
+                            <a href="#">
+                                Arthur (Programador)
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                Nocafee (Designer)
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
 
                 <div id="footer_redes">
                     <div class="tel">
@@ -279,5 +390,7 @@
 
         </section>
     </footer>
+
+    <script src="src/js/script.js"></script>
 </body>
 </html>

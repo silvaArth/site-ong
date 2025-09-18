@@ -12,6 +12,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo{
@@ -19,10 +20,11 @@ header{
     height: 42px;
 }
 
-#menu li{
+#menu{
+    list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 35px;
+    gap: 49px;
 }
 
 #menu a{
@@ -65,4 +67,35 @@ header{
 
 #menu a:hover{
     color: #fff;
+}
+
+#mobile_btn{
+    display: none;
+    background-color: #561C24;
+    border: none;
+    cursor: pointer;
+}
+
+#mobile_menu{
+    display: none;
+    font-size: 1.3rem;
+    position: absolute;
+    width: 94%;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+#mobile_menu a{
+    color: #561C24;
+}
+
+#mobile_donate{
+    display: none;
+    background-color: transparent;
+    color: #F5EADA;
+    font-size: 20px;
+    border: 1px solid #F5EADA;
+    border-radius: 8px;
+    padding: 5px 11px;
 }

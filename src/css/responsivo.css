@@ -1,0 +1,66 @@
+@media screen and (max-width: 1170px){
+    #mobile_btn{
+        display: block;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    #redes{
+        display: none;
+    }
+
+    #mobile_donate{
+        display: block;
+    }
+
+    #mobile_menu.ativo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5EADA;
+        border-radius: 10px;
+    }
+
+    #inicio{
+        flex-direction: column;
+    }
+
+    #image{
+        display: none;
+    }
+
+    #content{
+        text-align: center;
+        align-items: center;
+    }
+
+    #projetos{
+        align-items: center;
+    }
+
+    #grade{
+        grid-template-columns: 1fr;
+    }
+
+    #texto-sobre p{
+        padding: auto;
+    }
+
+    #footer_content{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #footer_links{
+        display: none;
+    }
+
+    #mobile_footer_links{
+        display: flex;
+        flex-direction: column;
+    }
+}

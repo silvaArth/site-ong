@@ -134,7 +134,7 @@ body{
 }
 
 #texto-sobre p{
-    width: 1250px;
+    padding: 0px 200px;
     font-size: 20px;
     font-weight: 300;
     line-height: 180%;
@@ -245,4 +245,18 @@ footer{
     flex-direction: column;
     gap: 7px;
     padding-top: 7px;
+}
+
+#mobile_footer_links{
+    display: none;
+    color: #F5EADA;
+    gap: 20px;
+    padding-bottom: 30px;
+
+}
+
+#mobile_footer_links a{
+    color: #F5EADA;
+    font-size: 20px;
+    
 }

@@ -10,24 +10,37 @@
 
     <link rel="stylesheet" href="src/css/doacao.css">
     <link rel="stylesheet" href="src/css/menu.css">
-    <title>DOAÇÕES</title>
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <title>Doações</title>
 </head>
 <body>
 
     <header>
         <nav id="nav_bar">
+            <button id="mobile_btn">
+                <img src="src/img/icons/menu.svg" alt="Barrinhas menu">
+            </button>
+
             <img src="src/img/InstitutoAdotar-Logo-Horizontal-Negativa.png" alt="Logo Instituto Adotar" class="logo">
+
+            <a href="doacao.html" id="mobile_donate">
+                    DOAÇÕES
+            </a>
 
             <ul id="menu">
                 <li>
                     <a href="index.html#inicio" class="hov">
                         Início
                     </a>
+                </li>
 
+                <li>
                     <a href="index.html#projetos" class="hov">
                         Projetos
                     </a>
+                </li>
 
+                <li>
                     <a href="index.html#sobre" class="hov">
                         Sobre Nós
                     </a>
@@ -54,6 +67,28 @@
                 </ul>
             </div>
         </nav>
+
+        <div id="mobile_nav_bar">
+            <ul id="mobile_menu">
+                <li>
+                    <a href="index.html#inicio" class="hov">
+                        Início
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="index.html#projetos" class="hov">
+                        Projetos
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html#sobre" class="hov">
+                        Sobre Nós
+                    </a>
+                </li>
+            </ul>
+        </div>
     </header>
 
     <main>
@@ -71,5 +106,7 @@
             </div>
         </section>
     </main>
+
+    <script src="src/js/script.js"></script>
 </body>
 </html>
